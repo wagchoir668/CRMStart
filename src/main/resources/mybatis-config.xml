@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!--加载属性配置文件-->
+    <properties resource="db.properties"/>
+
+    <!--设置与数据库交互的环境，所有的设置都是true和false打开或关闭-->
+    <!--配置的目的是为了高效查询-->
+    <!--对于海量数据，settings的优化效果不明显；对数据量小的项目，又没必要使用
+    因此在实际项目中通常不用settings，效果不明显-->
+    <settings>
+        <!--延迟加载-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!--二级缓存-->
+        <setting name="cacheEnabled" value="true"/>
+        <!--日志-->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+
+    <!--为mapper映射文件中的domain起别名-->
+    <typeAliases>
+        <!--批量起别名，更常用  则在mapper中不用再写包名，直接写类名即可-->
+        <package name="com.wagchoir.crm.settings.domain"/>
+        <package name="com.wagchoir.crm.workbench.domain"/>
+    </typeAliases>
+
+    <environments default="development">
+        <!-- 配置数据库连接信息  -->
+        <environment id="development">
+            <!--使用JDBC事务管理-->
+            <transactionManager type="JDBC"/>
+            <!--数据库连接池，使用最多的是druid德鲁伊-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 映射文件路径  注册mapper映射文件-->
+    <mappers>
+<!--        <mapper resource="com.wagchoir.crm.settings.dao.UserDao"/>-->
+        <!--批量注册 更常用-->
+        <package name="com.wagchoir.crm.settings.dao"/>
+        <package name="com.wagchoir.crm.workbench.dao"/>
+    </mappers>
+</configuration>

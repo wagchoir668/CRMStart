@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="com.wagchoir.workbench.test.ActivityTest" time="2.861" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.1+13-LTS"/>
+    <property name="sun.boot.library.path" value="D:\Java\jdk11.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\wagch\Desktop\NewCode\CRMStart1\CRMStart3"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\wagch\Desktop\NewCode\CRMStart1\CRMStart3"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.1+13-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\wagch\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="D:\MyIDEA\IntelliJ IDEA 2020.1.1\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="archetypeCatalog" value="internal"/>
+    <property name="classworlds.conf" value="D:\Tomcat\MAVEN\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Java\jdk11.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\xshell_xftp\xftp\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\jdk11.0.1\bin\;D:\mysql\bin;D:\MATLABB\runtime\win64;D:\MATLABB\bin;D:\UML\Rational_Rose\common;D:\Tomcat\MAVEN\apache-maven-3.3.9\bin;D:\Git\Git\cmd;&quot;D:\Java\jdk11.0.1\bin;&quot;;C:\Users\wagch\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\wagch\AppData\Local\Programs\Python\Python38-32\;C:\Users\wagch\AppData\Local\Microsoft\WindowsApps;C:\Users\wagch\AppData\Local\Programs\Microsoft VS Code\bin;D:\anaconda\Library\lib;C:\Program Files\Bandizip\;D:\MinGW\bin;D:\Java\jdk-9.0.4\bin;D:\mysql\bin;D:\Java\jdk11.0.1;&quot;D:\Tomcat\apache-tomcat-8.5.56\bin;D:\Tomcat\apache-tomcat-8.5.56\lib&quot;;D:\Tomcat\apache-tomcat-8.5.56\bin;D:\MyIDEA\IntelliJ IDEA 2020.1.1\bin;;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\wagch"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="wagch"/>
+    <property name="java.class.path" value="D:\Tomcat\MAVEN\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2020.1.1 -s D:\Tomcat\MAVEN\apache-maven-3.3.9\conf\settings.xml package"/>
+    <property name="java.home" value="D:\Java\jdk11.0.1"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="idea.version2020.1.1" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Tomcat\MAVEN\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-10-16"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.wagchoir.workbench.test.ActivityTest" name="TestSave" time="0.006"/>
+  <testcase classname="com.wagchoir.workbench.test.ActivityTest" name="testActivity" time="2.855"/>
+  <testcase classname="com.wagchoir.workbench.test.ActivityTest" name="TestUpdate" time="0"/>
+  <testcase classname="com.wagchoir.workbench.test.ActivityTest" name="f2" time="0"/>
+</testsuite>
