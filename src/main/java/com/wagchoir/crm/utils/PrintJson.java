@@ -11,12 +11,10 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class PrintJson {
-
 	//将boolean值解析为json串
 	public static void printJsonFlag(HttpServletResponse response,boolean flag) throws IOException {
 		Map<String,Boolean> map = new HashMap<>();
 		map.put("success",flag);
-		
 		ObjectMapper om = new ObjectMapper();
 		String json = om.writeValueAsString(map);;
 		response.getWriter().print(json);
